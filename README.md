@@ -7,8 +7,8 @@
    <li>Creating  a new task</li>
    <li>Deleting a task</li>
    <li>Marking tasks as done or undone</li>
-</u>
+</u><br>
 
-![8hSe7G](https://i.makeagif.com/media/2-20-2021/8hSe7G.gif)
+![8hSe7G](https://i.makeagif.com/media/2-20-2021/8hSe7G.gif width: 50px;)
 
-<h2>GitHub Pages Link:<a>https://yuliiadud.github.io/todolist/index.html</a></h2>
+# <h2>GitHub Pages Link:https://yuliiadud.github.io/todolist/index.html</h2>
