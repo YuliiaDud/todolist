@@ -1,6 +1,6 @@
 # DB2Limited Intership. Test task 'ToDoList'
 
-This is a web application for tracking daily tasks.
+<h5>This is a web application for tracking daily tasks.</h5>
 It is written in HTML, CSS and JavaScript.
 This app includes following features:
 creating  a new task
