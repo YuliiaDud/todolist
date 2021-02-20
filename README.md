@@ -9,6 +9,6 @@
    <li>Marking tasks as done or undone</li>
 </u><br>
 
-![8hSe7G](https://i.makeagif.com/media/2-20-2021/8hSe7G.gif width: 50px;)
+![8hSe7G](https://i.makeagif.com/media/2-20-2021/8hSe7G.gif)
 
 # <h2>GitHub Pages Link:https://yuliiadud.github.io/todolist/index.html</h2>
