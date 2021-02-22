@@ -55,24 +55,11 @@ function removeAll() {
 }
 
 
-// document.querySelector('.undone').onclick = function sort() {
-//     let item = document.querySelectorAll('.item');
-//     let itemArr = [];
-//     itemArr.push(item);
-//     function filter(checkbox) {
-//         checkbox = document.querySelectorAll('.checkbox')
-//         return checkbox.checked;
-//     }
-//     itemArr.filter(filter);
-// }
 document.querySelector('.undone').onclick = function sort() {
-    let ul = document.querySelector('.container');
-    let li = ul.getElementsByTagName("input");
-    let item = document.querySelectorAll('.item');;
-    let checkbox = document.querySelectorAll('.checkbox');
-    for (let i = 0; i < li.length; i++) {
-        if (checkbox[i].checked == true) {
-            item[i].innerHTML = "";
-        }
-    }
+
+    let checkboxs = document.querySelectorAll('input:checked');
+    checkboxs.forEach(checkbox => {
+        checkbox.parentNode.parentNode.removeChild(checkbox.parentNode);
+    })
+
 }
