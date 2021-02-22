@@ -54,7 +54,7 @@ h1 {
   margin-left: 20px;
 }
 
-.add:hover {
+.add:focus {
   background: rgb(167, 218, 238);
 }
 .container {
@@ -153,7 +153,9 @@ h1 {
   left: 50%;
   transform: translate(-50%);
 }
-
+.btn:focus {
+  outline: none;
+}
 @media (max-width: 760px) {
   .input {
     margin-left: 10px;

@@ -54,12 +54,19 @@ function removeAll() {
     document.querySelector('.container').innerHTML = "";
 }
 
-
+let deleted =[];
 document.querySelector('.undone').onclick = function sort() {
 
     let checkboxs = document.querySelectorAll('input:checked');
-    checkboxs.forEach(checkbox => {
-        checkbox.parentNode.parentNode.removeChild(checkbox.parentNode);
-    })
 
+    checkboxs.forEach(checkbox => {
+        let deletedItem = checkbox.parentNode.parentNode.removeChild(checkbox.parentNode); 
+        deleted.push(deletedItem);
+    })
+}
+
+document.querySelector('.all').onclick = function returnDeleted() {
+    for (const iterator of deleted) {
+        container.appendChild(iterator);
+    }
 }
