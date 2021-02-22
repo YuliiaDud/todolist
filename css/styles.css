@@ -156,27 +156,77 @@ h1 {
 .btn:focus {
   outline: none;
 }
-@media (max-width: 760px) {
-  .input {
-    margin-left: 10px;
-  }
+
+.input {
+  margin-left: 10px;
 }
-@media (max-width: 670px) {
+
+@media (max-width: 720px) {
   .inputDiv {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .add {
-    width: 490px;
-    height: 50px;
-    margin-top: 20px;
-  }
+
   .fas.fa-clipboard-list {
     display: none;
   }
-  .item_input {
+  .add {
+    width: 400px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+  .input {
     width: 400px;
     height: 100px;
+  }
+
+  .item_input {
+    width: 350px;
+    height: 100px;
+    margin-right: 20px;
+  }
+
+  .checkbox {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+  }
+  .title {
+    font-size: 70px;
+  }
+  h1 {
+    margin-bottom: 50px;
+    margin-left: 20px;
+  }
+  .remove {
+    font-size: 30px;
+  }
+  .fas.fa-trash {
+    padding: 10px;
+  }
+}
+@media (max-width: 530px) {
+  .add {
+    width: 330px;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 20px;
+  }
+  .input {
+    width: 330px;
+    height: 100px;
+    margin-right: 20px;
+    margin-left: 0;
+  }
+  .item_input {
+    width: 230px;
+    height: 70px;
+    margin-right: 20px;
+  }
+  .filter {
+    margin-right: 30px;
   }
 }
