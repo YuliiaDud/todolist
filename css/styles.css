@@ -153,9 +153,7 @@ h1 {
   left: 50%;
   transform: translate(-50%);
 }
-.delete {
-  display: none;
-}
+
 @media (max-width: 760px) {
   .input {
     margin-left: 10px;
